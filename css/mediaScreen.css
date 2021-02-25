@@ -1,0 +1,13 @@
+@media screen and (max-width:375px){
+    .tabela input{
+        width:100%;
+        padding:10px 0;
+        border-radius: 5px;
+        border:1px solid silver;
+    }
+
+    .tabela input[type="text"]{
+        padding-left:8px;
+        margin-left: -6px;
+    }
+}

@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    height:100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:100%;
+    height:100%;
+    padding:10px 0;
+    background:linear-gradient(to left, rgb(141, 208, 224) , rgb(131, 218, 233));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela{
+    width: 400px;
+    padding:10px;
+    border-radius:5px;
+    background:linear-gradient(to top, rgb(4, 4, 68) , rgb(114, 162, 206));
+}
+
+.tabela h2{
+    color:rgb(22, 22, 24);
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+}
+.tabela input{
+    width:350px;
+    padding:10px 0;
+    border-radius: 5px;
+    border:1px solid silver;
+}
+.tabela input[type="text"]{
+    outline: none;
+    font-size: 20px;
+    padding-left:10px;
+    border: 1px solid rgb(19, 169, 189);
+}
+
+.tabela .peso, .altura{
+    margin-top:15px;
+}
+
+.tabela .peso, .altura p{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.calculadora-resultado{
+   text-align: center;
+
+}
+.tabela .resultado{
+    width:100px;
+    height:25px;
+    background-color: silver;
+    padding:8px;
+    margin:10px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.resultado:hover{
+    background-color: rgb(233, 227, 227);
+}
+
+
+.tabela-resultado{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -5px;
+}
+.tabela-resultado h2{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 5px;
+    padding:4px;
+}
+.tabela-resultadoh3 h3{
+    font-size: 30px;
+    margin-top: -20px;
+    color:white;
+    border-radius: 5px;
+}
